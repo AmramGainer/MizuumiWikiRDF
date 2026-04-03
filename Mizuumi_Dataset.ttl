@@ -1,0 +1,413 @@
+@prefix :       <https://example.com/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd:     <http://www.wikidata.org/entity/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:37     rdf:type              schema:videoGame;
+        schema:author         wd:Q123109121;
+        schema:datePublished  "2023"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/3/3e/PB_Logo.png";
+        schema:name           "Pocket Bravery"@en;
+        schema:url            "http://staterastudio.com/" .
+
+:3      rdf:type              schema:videoGame;
+        schema:author         wd:Q11289760;
+        schema:datePublished  "2011"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851 , wd:Q16338 , wd:Q10683;
+        schema:image          "https://mizuumi.wiki/images/thumb/7/70/AquaPazza_Logo.png/400px-AquaPazza_Logo.png";
+        schema:name           "Aquzpazza"@en;
+        schema:url            "https://aquaplus.jp/aquapazza/" .
+
+
+:24     rdf:type              schema:videoGame;
+        schema:author         :Reddish Region;
+        schema:datePublished  "2010"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png";
+        schema:name           "Hinokakera Chaotic Eclipse"@en;
+        schema:url            "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse" .
+
+:11     rdf:type              schema:videoGame;
+        schema:author         :Nuckols;
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/9/90/Combo_Babies_Logo.png/400px-Combo_Babies_Logo.png";
+        schema:name           "Combo Babies"@en;
+        schema:url            "https://store.steampowered.com/app/1739200/Combo_Babies/" .
+
+
+:9      rdf:type              schema:videoGame;
+        schema:author         :Saffron;
+        schema:datePublished  "2020"^^xsd:gYear;
+        schema:gamePlatform   wd:Q692989;
+        schema:image          "https://mizuumi.wiki/images/thumb/c/c5/CCBR.png/400px-CCBR.png";
+        schema:name           "Cataclysmic Clash: BLAZING RESOLVE"@en;
+        schema:url            "https://www.roblox.com/games/5645567161/Cataclysmic-Clash-BLAZING-RESOLVE/" .
+
+:17     rdf:type              schema:videoGame;
+        schema:author         :CosmicHatGames;
+        schema:datePublished  "2023"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://img.itch.zone/aW1nLzg4NDk0NDkucG5n/original/kUx%2Bdc.png";
+        schema:name           "Duels of Fortune"@en;
+        schema:url            "https://cosmic-hat-games.itch.io/duels-of-fortune" .
+
+:45     rdf:type              schema:videoGame;
+        schema:author         wd:Q33189130;
+        schema:datePublished  "2009"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/d/de/VanPri_Logo.png/400px-VanPri_Logo.png";
+        schema:name           "Vanguard Princess"@en;
+        schema:url            "https://exa.ac/en/games/vanguard-princess-r/?v=0f177369a3b7" .
+
+:32     rdf:type              schema:videoGame;
+        schema:author         :dHamster;
+        schema:datePublished  "2022"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/d/df/MKD_Logo_new.png/400px-MKD_Logo_new.png";
+        schema:name           "Mega Knockdown"@en;
+        schema:url            "https://megaknockdown.com/" .
+
+:38     rdf:type              schema:videoGame;
+        schema:author         wd:SectorKGames;
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/9/9e/PP_Titlecard.png";
+        schema:name           "Punch Planet"@en;
+        schema:url            "http://www.punchplanet.com/" .
+
+:4      rdf:type              schema:videoGame;
+        schema:author         wd:Q11332510;
+        schema:datePublished  "1994"^^xsd:gYear;
+        schema:gamePlatform   wd:Q200912;
+        schema:image          "https://mizuumi.wiki/images/thumb/5/59/A120LO_Logo.png/400px-A120LO_Logo.png";
+        schema:name           "Asuka 120% LimitOver BURNING Fest"@en;
+        schema:url            "https://mizuumi.wiki/w/Asuka_120_LimitOver" .
+
+:25     rdf:type              schema:videoGame;
+        schema:author         wd:BestoGameTeam;
+        schema:datePublished  "2023"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/7/7c/IS_Logo.png/150px-IS_Logo.png";
+        schema:name           "Idol Showdown"@en;
+        schema:url            "https://store.steampowered.com/app/1742020/Idol_Showdown/" .
+
+:12     rdf:type              schema:videoGame;
+        schema:author         :light;
+        schema:datePublished  "2008"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/c/ce/CFF_Logo.png/225px-CFF_Logo.png";
+        schema:name           "CRUCIS FATAL+FAKE"@en;
+        schema:url            "https://mizuumi.wiki/w/CRUCIS_FATAL%2BFAKE" .
+
+:40     rdf:type              schema:videoGame;
+        schema:author         :TeamProjectSakuraX, :GiantRobotParty;
+        schema:datePublished  "2020"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/3/3b/SXC_Logo.png/300px-SXC_Logo.png";
+        schema:name           "Sakura X Clash"@en;
+        schema:url            "https://sakuraxclash.com/" .
+
+:18     rdf:type              schema:videoGame;
+        schema:author         :Free;
+        schema:datePublished  "2007"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/0/09/ESLAF_Logo.png/400px-ESLAF_Logo.png";
+        schema:name           "E’s Laf"@en;
+        schema:url            "http://eslaf.main.jp/index.html" .
+
+:46     rdf:type              schema:videoGame;
+        schema:author         wd:Q124045643;
+        schema:datePublished  "2016"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/9/95/Verdictguiltylogotransparent.png/400px-Verdictguiltylogotransparent.png";
+        schema:name           "Verdict Guilty"@en;
+        schema:url            "https://mizuumi.wiki/w/Verdict_Guilty" .
+
+:33     rdf:type              schema:videoGame;
+        schema:author         wd:Q5501698;
+        schema:datePublished  "2010"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338 , wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/4/41/MBAACC_Logo.png/800px-MBAACC_Logo.png?20200831021743";
+        schema:name           "Melty Blood"@en;
+        schema:url            "https://www.arcsystemworks.jp/steam/mbaacc/en/" .
+
+:20     rdf:type              schema:videoGame;
+        schema:author         wd:Q2495576;
+        schema:datePublished  "2008"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851 , wd:Q170325 , wd:Q10680;
+        schema:image          "https://mizuumi.wiki/images/thumb/b/b0/Fate_uc_logo.png/150px-Fate_uc_logo.png";
+        schema:name           "Fate Unlimited Codes"@en;
+        schema:url            "https://mizuumi.wiki/w/Fate_Unlimited_Codes" .
+
+:39     rdf:type              schema:videoGame;
+        schema:author         :FoxyBoxyGames;
+        schema:datePublished  "2020"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/0/06/Ro_logofull.png/800px-Ro_logofull.png";
+        schema:name           "Robo-Oh"@en;
+        schema:url            "https://www.foxyboxygames.com/games_robooh.html" .
+
+:5      rdf:type              schema:videoGame;
+        schema:author         wd:Q1172213;
+        schema:datePublished  "1995"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/1/14/Avengrgs.webp/300px-Avengrgs.webp.png";
+        schema:name           "Avengers in Galactic Storm"@en;
+        schema:url            "https://mizuumi.wiki/w/Avengers_in_Galactic_Storm" .
+
+:26     rdf:type              schema:videoGame;
+        schema:author         wd:Q1187058;
+        schema:datePublished  "2004"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/9/97/IAMP_Logo.png/150px-IAMP_Logo.png";
+        schema:name           "Immaterial and Missing Power"@en;
+        schema:url            "https://tasofro.net/touhou/index.html" .
+
+:13     rdf:type              schema:videoGame;
+        schema:author         wd:Q11289760;
+        schema:datePublished  "2011"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338 , wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/f/fc/DB_Logo.png/150px-DB_Logo.png";
+        schema:name           "Daemon Bride"@en;
+        schema:url            "http://www.examu.co.jp/dmb/head.html" .
+
+:41     rdf:type              schema:videoGame;
+        schema:author         wd:Q702550;
+        schema:datePublished  "2005"^^xsd:gYear;
+        schema:gamePlatform   wd:Q10680 , wd:Q170325 , wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/7/7d/SvG_Logo.png/150px-SvG_Logo.png";
+        schema:name           "Spectral vs Generation"@en;
+        schema:url            "https://mizuumi.wiki/w/Spectral_vs_Generation" .
+
+:19     rdf:type              schema:videoGame;
+        schema:author         wd:Q1187058;
+        schema:datePublished  "2000"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/e/ef/EFZ_Logo.png/150px-EFZ_Logo.png";
+        schema:name           "Eternal Fighter Zero"@en;
+        schema:url            "https://tasofro.net/efz/index.html" .
+
+:47     rdf:type              schema:videoGame;
+        schema:author         :Aine;
+        schema:datePublished  "2006"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/8/89/WanWan_Logo.png/150px-WanWan_Logo.png";
+        schema:name           "Wonderful World"@en;
+        schema:url            "http://ainefill.web.fc2.com/" .
+
+:34     rdf:type              schema:videoGame;
+        schema:author         :MattrifiedGames;
+        schema:datePublished  "2024"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/a/a5/MF_infobox_image.png";
+        schema:name           "Merfight"@en;
+        schema:url            "https://www.merfight.com/" .
+
+:0      rdf:type              schema:videoGame;
+        schema:author         wd:Q44292046;
+        schema:datePublished  "2011"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/6/64/AOS2_Logo.png/150px-AOS2_Logo.png";
+        schema:name           "Acceleration of Suguri 2"@en;
+        schema:url            "https://fruitbatfactory.com/aos2/" .
+
+:21     rdf:type              schema:videoGame;
+        schema:author         :DigitalCrafter;
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/8/83/FOA_logo.png/400px-FOA_logo.png";
+        schema:name           "Fight of Animals"@en;
+        schema:url            "https://mizuumi.wiki/w/Fight_of_Animals" .
+
+:6      rdf:type              schema:videoGame;
+        schema:author         :YukiDaruma;
+        schema:datePublished  "2005"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/6/6a/Azufightboxart.png/225px-Azufightboxart.png";
+        schema:name           "AzuFight: Taisen Shiyo"@en;
+        schema:url            "https://mizuumi.wiki/w/AzuFight:_Taisen_Shiyo" .
+
+:27     rdf:type              schema:videoGame;
+        schema:author         :GameDuchy;
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/8/84/ISVS_Logo.png";
+        schema:name           "Iron Saga VS"@en;
+        schema:url            "https://en.ironsagavs.com/" .
+
+:14     rdf:type              schema:videoGame;
+        schema:author         wd:Q1054844;
+        schema:datePublished  "1994"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/2/25/DanKuGa_Logo.png/400px-DanKuGa_Logo.png";
+        schema:name           "Dan-Ku-Ga"@en;
+        schema:url            "https://mizuumi.wiki/w/Dan-Ku-Ga" .
+
+:42     rdf:type              schema:videoGame;
+        schema:author         wd:Q91013199;
+        schema:datePublished  "2017"^^xsd:gYear;
+        schema:gamePlatform   wd:Q5014725 , wd:Q19610114 , wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/6/6c/TFH_Logo.png/400px-TFH_Logo.png";
+        schema:name           "Them’s Fighting Herds"@en;
+        schema:url            "https://www.mane6.com/" .
+
+:48     rdf:type              schema:videoGame;
+        schema:author         wd:Q124149672;
+        schema:datePublished  "2008"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/a/a2/YGS_Logo.png/150px-YGS_Logo.png";
+        schema:name           "Yatagarasu"@en;
+        schema:url            "http://yatagarasuinfo.web.fc2.com/" .
+
+:35     rdf:type              schema:videoGame;
+        schema:author         :HyoriOsin;
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/3/3e/Evi-XeaUcAYR7BI.jpg/476px-Evi-XeaUcAYR7BI.jpg";
+        schema:name           "MESSIAH END RE COMING"@en;
+        schema:url            "https://mizuumi.wiki/w/Messiah_End_Re_Coming" .
+
+:1      rdf:type              schema:videoGame;
+        schema:author         :SubtleStyle;
+        schema:datePublished  "2007"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851 , wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/0/0e/ABK_Logo.png/150px-ABK_Logo.png";
+        schema:name           "Akatsuki Blitzkampf"@en;
+        schema:url            "https://www.subtlestyle.net/akatsukibk/index.html" .
+
+:22     rdf:type              schema:videoGame;
+        schema:author         wd:Q5501698;
+        schema:datePublished  "2008"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/d/d9/GOF2_Logo.png";
+        schema:name           "Glove on Fight 2: Gleam of Force"@en;
+        schema:url            "http://gof2club.wikidot.com/" .
+
+:7      rdf:type              schema:videoGame;
+        schema:author         :TeamCraze;
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/c/c7/BC_Logo.png/400px-BC_Logo.png";
+        schema:name           "Battle Craze"@en;
+        schema:url            "https://www.playbattlecraze.com/" .
+
+:28     rdf:type              schema:videoGame;
+        schema:author         wd:Q2612323;
+        schema:datePublished  "1995"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/thumb/5/56/JCFoF_Banner_Red.png/400px-JCFoF_Banner_Red.png";
+        schema:name           "Jackie Chan in Fists of Fire"@en;
+        schema:url            "https://mizuumi.wiki/w/Jackie_Chan_in_Fists_of_Fire" .
+
+:15     rdf:type              schema:videoGame;
+        schema:author         :JiangxiDinosaur;
+        schema:datePublished  "2009"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/6/6a/DDND_Logo.gif/150px-DDND_Logo.gif";
+        schema:name           "DongDong Never Die"@en;
+        schema:url            "https://sites.google.com/view/dong-dong-never-die/home" .
+
+:43     rdf:type              schema:videoGame;
+        schema:author         :AmyXu, wd:Q135056469;
+        schema:datePublished  "2021"^^xsd:gYear;
+        schema:gamePlatform   wd:Q6368;
+        schema:image          "https://mizuumi.wiki/images/thumb/9/99/TLA_Logo.jpg/400px-TLA_Logo.jpg";
+        schema:name           "Tough Love Arena"@en;
+        schema:url            "https://toughlovearena.com/" .
+
+:30     rdf:type              schema:videoGame;
+        schema:author         :StudioSCircle;
+        schema:datePublished  "2018"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/0/01/KFF_Okawari_Logo.png/400px-KFF_Okawari_Logo.png";
+        schema:name           "KemoFre Fight!"@en;
+        schema:url            "https://www.dlsite.com/home/work/=/product_id/RJ230326.html" .
+
+:49     rdf:type              schema:videoGame;
+        schema:author         wd:Q1142226;
+        schema:datePublished  "2010"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338 , wd:Q19610114 , wd:Q5014725 , wd:Q170325;
+        schema:image          "https://mizuumi.wiki/images/thumb/a/a6/YvK_Logo.png/400px-YvK_Logo.png";
+        schema:name           "Ys vs. Sora no Kiseki: Alternative Saga"@en;
+        schema:url            "https://store.steampowered.com/app/1794880/Ys_vs_Trails_in_the_Sky_Alternative_Saga/" .
+
+:36     rdf:type              schema:videoGame;
+        schema:author         :NRF;
+        schema:datePublished  "2009"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/e/ee/MKV_Logo_BG.jpg/150px-MKV_Logo_BG.jpg";
+        schema:name           "Million Knights Vermillion"@en;
+        schema:url            "http://www.m-k-v.jp/" .
+
+:2      rdf:type              schema:videoGame;
+        schema:author         :Starcutter;
+        schema:datePublished  "2022"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/c/c8/AUAU_Logo.png";
+        schema:name           "Among Us Arena"@en;
+        schema:url            "https://starcutter.itch.io/among-us-arena" .
+
+:23     rdf:type              schema:videoGame;
+        schema:author         :MonochromeSoft;
+        schema:datePublished  "2025"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/b/bf/Heatwave_logo.png/350px-Heatwave_logo.png";
+        schema:name           "Heatwave"@en;
+        schema:url            "https://monochromesoft.itch.io/heatwave/" .
+
+:10     rdf:type              schema:videoGame;
+        schema:author         :FKDigital;
+        schema:datePublished  "2013"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338 , wd:Q5014725 , wd:Q19610114 , wd:Q10683;
+        schema:image          "https://mizuumi.wiki/images/thumb/4/46/CC_Logo.png/400px-CC_Logo.png";
+        schema:name           "Chaos Code: New Sign of Catastrophe"@en;
+        schema:url            "http://www.fkdigital.net/chaoscode/" .
+
+:8      rdf:type              schema:videoGame;
+        schema:author         wd:Q1045037;
+        schema:datePublished  "2011"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/1/1e/BBBR_Logo.png/300px-BBBR_Logo.png";
+        schema:name           "Big Bang Beat Resolve"@en;
+        schema:url            "http://aja-games.com/products_BBBR/" .
+
+:29     rdf:type              schema:videoGame;
+        schema:author         :AtraviaJapan;
+        schema:datePublished  "2006"^^xsd:gYear;
+        schema:gamePlatform   wd:Q192851;
+        schema:image          "https://mizuumi.wiki/images/4/45/Jslogo.png";
+        schema:name           "Jingi Storm: The Arcade"@en;
+        schema:url            "https://mizuumi.wiki/w/Jingi_Storm:_The_Arcade" .
+
+:16     rdf:type              schema:videoGame;
+        schema:author         :VecDerg;
+        schema:datePublished  "2022"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/f/fe/DracoFighter_Logo.png/400px-DracoFighter_Logo.png";
+        schema:name           "Draco Fighter"@en;
+        schema:url            "https://www.vecderg.com/dracofighter" .
+
+:44     rdf:type              schema:videoGame;
+	schema:author         :Haramamself
+        schema:datePublished  "2019"^^xsd:gYear;
+        schema:gamePlatform   wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/4/46/Kyantamain.jpg/400px-Kyantamain.jpg";
+        schema:name           "Ultra Fight Da! Kyanta 2"@en;
+        schema:url            "https://store.steampowered.com/app/1026840/Ultra_Fight_Da__Kyanta_2/" .
+
+:31     rdf:type              schema:videoGame;
+        schema:author         :Mino_dev;
+        schema:datePublished  "2020"^^xsd:gYear;
+        schema:gamePlatform   wd:Q19610114 , wd:Q16338;
+        schema:image          "https://mizuumi.wiki/images/thumb/2/2f/MnS_Logo.png/400px-MnS_Logo.png";
+        schema:name           "Maiden and Spell"@en;
+        schema:url            "https://www.maidenspellgame.com/".
