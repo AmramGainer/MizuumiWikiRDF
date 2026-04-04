@@ -9,11 +9,17 @@ __Included Files__
   ### Game: Hinokakera Chaotic Eclipse
 #### Human Readable format
 author is Reddish Region
+
 date Published is 2010
+
 game platform is PC
+
 image is located at "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png"
+
 English name is Hinokakera Chaotic Eclipse 
+
 url is https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse
+
 
 #### Turtle Format
   rdf:type              schema:videoGame;
