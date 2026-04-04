@@ -5,8 +5,8 @@ __Included Files__
 * Mapping Diagram.png - a representation of how properties of each entry will be organized in RDF format.
 * Mizuumi_Dataset.ttl - the RDF export in Pretty Turtle format
 
-  ## Example RDF
-  ### Game: Hinokakera Chaotic Eclipse
+## Example RDF
+### Game: Hinokakera Chaotic Eclipse
 #### Human Readable format
 author is Reddish Region
 
