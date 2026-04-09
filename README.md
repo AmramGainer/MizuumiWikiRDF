@@ -29,6 +29,9 @@ I used schema.org as my primary ontology and its VideoGames type as my controlle
 ## Example RDF
 ### Game: Hinokakera Chaotic Eclipse
 #### Human Readable format
+
+Type is Video Game
+
 author is Reddish Region
 
 date Published is 2010
@@ -39,8 +42,7 @@ image is located at "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png"
 
 English name is Hinokakera Chaotic Eclipse 
 
-url is https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse
-
+website is located at "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse"
 
 #### Turtle Format
   rdf:type              schema:videoGame;
@@ -54,6 +56,36 @@ url is https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse
   schema:image          "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png";
   
   schema:name           "Hinokakera Chaotic Eclipse"@en;
-  
+
   schema:url            "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse" .
-  
+
+### Game: Thems' Fighting Herds
+#### Human Readable Format
+Type is Video Game
+
+author is Mane6
+
+Published in the year 2017
+
+game platform is PC
+
+image is located at "https://mizuumi.wiki/images/thumb/6/6c/TFH_Logo.png/400px-TFH_Logo.png"
+
+English name is Them's Fighting Herds
+
+Website is located at "https://www.mane6.com/"
+
+#### Turtle Format
+rdf:type              schema:videoGame;
+   
+schema:author         wd:Q91013199;
+   
+schema:datePublished  "2017"^^xsd:gYear;
+   
+schema:gamePlatform   wd:Q5014725 , wd:Q19610114 , wd:Q16338;
+   
+schema:image          "https://mizuumi.wiki/images/thumb/6/6c/TFH_Logo.png/400px-TFH_Logo.png";
+   
+schema:name           "Them’s Fighting Herds"@en;
+   
+schema:url            "https://www.mane6.com/" .
