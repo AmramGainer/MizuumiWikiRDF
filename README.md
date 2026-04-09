@@ -5,6 +5,13 @@ __Included Files__
 * Mapping Diagram.png - a representation of how properties of each entry will be organized in RDF format.
 * Mizuumi_Dataset.ttl - the RDF export in Pretty Turtle format
 
+## Ontology & Controlled Voabulary
+I used schema.org as my primary ontology and its VideoGames type as my controlled vocabulary
+
+## Linking Strategy.
+Game Title - Literal. I felt the titles would be very obscure and random, so I figured it would be difficult to find them as URIs in any databases like wikidata. A few games' names came up, but not enough to justify making this a URI in my opinion.
+Developer Name - URI. I almost had made this a Literal for the same reason as stated above, but I had some better luck finding creators on wikidata, so I figured it would be ok to make this one a URI. I found at least half on the creators on wikidata and was able to replace the entries without legit URIs with example.com addresses. 
+
 ## Example RDF
 ### Game: Hinokakera Chaotic Eclipse
 #### Human Readable format
