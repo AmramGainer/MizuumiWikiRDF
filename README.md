@@ -76,7 +76,7 @@ English name is Them's Fighting Herds
 Website is located at "https://www.mane6.com/"
 
 #### Turtle Format
-rdf:type              schema:videoGame;
+rdf:type   <nbsp><nbsp><nbsp><nbsp>           schema:videoGame;
    
 schema:author         wd:Q91013199;
    
