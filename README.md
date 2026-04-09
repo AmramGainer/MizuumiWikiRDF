@@ -77,6 +77,7 @@ Website is located at "https://www.mane6.com/"
 
 #### Turtle Format
 |rdf:type    |       schema:videoGame;|
+| --- | ---|
    
 |schema:author      |   wd:Q91013199;|
    
