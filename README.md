@@ -45,19 +45,15 @@ English name is Hinokakera Chaotic Eclipse
 website is located at "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse"
 
 #### Turtle Format
-  rdf:type              schema:videoGame;
-  
-  schema:author         :Reddish Region;
-  
-  schema:datePublished  "2010"^^xsd:gYear;
-  
-  schema:gamePlatform   wd:Q16338;
-  
-  schema:image          "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png";
-  
-  schema:name           "Hinokakera Chaotic Eclipse"@en;
-
-  schema:url            "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse" .
+|Predicate | Object|
+|---|---|
+|rdf:type |              schema:videoGame;|
+|schema:author |        :Reddish Region; |
+|schema:datePublished |  "2010"^^xsd:gYear;|
+|schema:gamePlatform  | wd:Q16338;|
+|schema:image         | "https://mizuumi.wiki/images/1/1d/Hikake_Logo.png";|
+|schema:name          | "Hinokakera Chaotic Eclipse"@en;|
+|schema:url           | "https://mizuumi.wiki/w/Hinokakera_Chaotic_Eclipse" .|
 
 ### Game: Thems' Fighting Herds
 #### Human Readable Format
@@ -76,8 +72,9 @@ English name is Them's Fighting Herds
 Website is located at "https://www.mane6.com/"
 
 #### Turtle Format
+|Predicate| Object|
+|---|---|
 |rdf:type    | schema:videoGame;|
-| --- | ---|
 |schema:author | wd:Q91013199;|
 |schema:datePublished | "2017"^^xsd:gYear;|
 |schema:gamePlatform |  wd:Q5014725 , wd:Q19610114 , wd:Q16338;|
