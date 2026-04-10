@@ -6,7 +6,7 @@ __Included Files__
 * Mizuumi_Dataset.ttl - the RDF export in Pretty Turtle format
 
 ## Ontology & Controlled Voabulary
-I used schema.org as my primary ontology and its VideoGames type as my controlled vocabulary
+I used schema.org as my primary ontology and its VideoGames type as a controlled vocabulary. I also used Wikidata for mt controlled vocabulary in reconciliation.
 
 ## Linking Strategy.
 **Game Title - Literal** I felt the titles would be very obscure and random, so I figured it would be difficult to find them as URIs in any databases like wikidata. A few games' names came up, but not enough to justify making this a URI in my opinion.
